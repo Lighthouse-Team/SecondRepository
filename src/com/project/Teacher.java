@@ -1,6 +1,6 @@
 package com.project;
 
-public class Student {
+public class Teacher {
 
 	private Integer studentId;
 	private String studentName;
