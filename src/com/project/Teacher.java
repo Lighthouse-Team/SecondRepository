@@ -5,6 +5,16 @@ public class Teacher {
 	private Integer studentId;
 	private String studentName;
 	
+	public Teacher() {
+		super();
+	}
+
+	public Teacher(Integer studentId, String studentName) {
+		super();
+		this.studentId = studentId;
+		this.studentName = studentName;
+	}
+
 	public Integer getStudentId() {
 		return studentId;
 	}
@@ -20,7 +30,5 @@ public class Teacher {
 	public void setStudentName(String studentName) {
 		this.studentName = studentName;
 	}
-	
-	// 注释
 	
 }
