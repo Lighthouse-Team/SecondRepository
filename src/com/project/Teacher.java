@@ -2,7 +2,7 @@ package com.project;
 
 public class Teacher {
 
-	private Integer studentId;
+	private Integer studentId; // id
 	private String studentName;
 
 	public Teacher() {
